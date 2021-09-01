@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    list-style-type:  none;
+    text-decoration: none;
+}
+html {
+    font-family: Cambria, Georgia, "Times New Roman", Times, serif;;
+}
+
+body {
+    background-color: aliceblue;
+    line-height: 1.5em;
+}
+img {
+    height: 250px;
+    width: 250px;
+    float: left;
+    margin-right: 50px;
+}
+
+#contact,
+#merits,
+#ab,
+#container {
+    width: 960px;
+    margin: 20px auto;
+    padding: 20x;
+    height: 600px;
+}
+
+#header {
+    border-bottom: 2px solid rgb(87, 85, 85);
+    height: auto;
+    font-size: 25px;
+}
+
+#footer {
+    background-color: rgb(22, 22, 56);
+    height: 200px;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  footer > a {
+      color: blanchedalmond;
+      font-size: 25px;
+  }
+
+ul {
+    width: auto;
+    text-align: center;
+    padding: 10 0x;
+    background: rgb(61, 38, 38);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.50);
+    }
+    
+    #nav1 li {
+    display: inline-block;
+    }
+    
+    #nav1 li a {
+    margin: 0 5px 0 0;
+    padding: 5px 20px;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 50px;
+    font-size: 20px;
+    color: rgba(66,48,1,1);
+    border-radius: 5px;
+    }
+    
+    #nav1 li a:hover {
+    background: rgb(170, 169, 169);
+    color: black;
+    }
+    
+    #nav1 a:link, #nav1 a:visited {
+    color: rgba(255,255,255,1);
+    }
+ 
+    
+
+
+
